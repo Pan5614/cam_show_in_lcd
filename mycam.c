@@ -147,7 +147,7 @@ static int fd = -1;         //打开的摄像头句柄
 static int Frame_fd = -1;          //打开的帧缓冲句柄  
 static char *FrameBuffer = NULL;
 static int screensize;
-unsigned int cam_width = 320, cam_hight = 240, Framebpp = 32;
+unsigned int cam_width = 640, cam_hight = 480, Framebpp = 32;
 
 VideoBuffer pic_buffers[CBUF_NUM];
 
